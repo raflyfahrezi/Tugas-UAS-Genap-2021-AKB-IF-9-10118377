@@ -16,7 +16,7 @@
         tools:layout="@layout/fragment_dashboard" />
 
     <fragment
-        android:id="@+id/navigation_notifications"
-        android:name="com.example.tugas_uas_genap_2021_akb_if_9_10118377.ui.notifications.NotificationsFragment"
-        tools:layout="@layout/fragment_notifications" />
+        android:id="@+id/navigation_about"
+        android:name="com.example.tugas_uas_genap_2021_akb_if_9_10118377.ui.about.AboutFragment"
+        tools:layout="@layout/fragment_about" />
 </navigation>
