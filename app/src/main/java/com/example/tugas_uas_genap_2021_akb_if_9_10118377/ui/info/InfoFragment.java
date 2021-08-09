@@ -48,7 +48,6 @@ public class InfoFragment extends Fragment {
         List<Fragment> list = new ArrayList<>();
         list.add(new ViewPagerFragment1());
         list.add(new ViewPagerFragment2());
-        list.add(new ViewPagerFragment3());
 
         pagerAdapter = new SlidePagerAdapter(requireActivity().getSupportFragmentManager(), list);
 
