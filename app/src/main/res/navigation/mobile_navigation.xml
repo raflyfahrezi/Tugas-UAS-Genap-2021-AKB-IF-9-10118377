@@ -6,14 +6,14 @@
     app:startDestination="@+id/navigation_home">
 
     <fragment
+        android:id="@+id/navigation_info"
+        android:name="com.example.tugas_uas_genap_2021_akb_if_9_10118377.ui.info.InfoFragment"
+        tools:layout="@layout/fragment_info" />
+
+    <fragment
         android:id="@+id/navigation_home"
         android:name="com.example.tugas_uas_genap_2021_akb_if_9_10118377.ui.home.HomeFragment"
         tools:layout="@layout/fragment_home" />
-
-    <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="com.example.tugas_uas_genap_2021_akb_if_9_10118377.ui.dashboard.DashboardFragment"
-        tools:layout="@layout/fragment_dashboard" />
 
     <fragment
         android:id="@+id/navigation_about"
