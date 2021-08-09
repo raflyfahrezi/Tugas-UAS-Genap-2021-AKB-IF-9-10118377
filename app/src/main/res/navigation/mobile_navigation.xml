@@ -11,7 +11,7 @@
         tools:layout="@layout/fragment_info" />
 
     <fragment
-        android:id="@+id/navigation_place"
+        android:id="@+id/navigation_home"
         android:name="com.example.tugas_uas_genap_2021_akb_if_9_10118377.ui.place.PlaceFragment"
         tools:layout="@layout/fragment_place" />
 
