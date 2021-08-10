@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "749472845933",
+    "firebase_url": "https://go-holiyay-uas-akb-a9870-default-rtdb.firebaseio.com",
+    "project_id": "go-holiyay-uas-akb-a9870",
+    "storage_bucket": "go-holiyay-uas-akb-a9870.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:749472845933:android:857a3a5f99b76b5a382f64",
+        "android_client_info": {
+          "package_name": "com.example.tugas_uas_genap_2021_akb_if_9_10118377"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "749472845933-sku6j5jjh4dj7h4nq286tb4nioklqk4e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9Gs0bUmAhCLq0zJPvHGCZKJvlcsxhHNQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "749472845933-sku6j5jjh4dj7h4nq286tb4nioklqk4e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
