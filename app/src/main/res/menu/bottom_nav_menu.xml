@@ -12,8 +12,13 @@
         android:title="@string/title_2" />
 
     <item
+        android:id="@+id/navigation_maps"
+        android:icon="@drawable/ic_baseline_map_24"
+        android:title="@string/title_3" />
+
+    <item
         android:id="@+id/navigation_about"
         android:icon="@drawable/ic_baseline_person_24"
-        android:title="@string/title_3" />
+        android:title="@string/title_4" />
 
 </menu>

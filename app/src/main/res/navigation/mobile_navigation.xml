@@ -16,6 +16,11 @@
         tools:layout="@layout/fragment_place" />
 
     <fragment
+        android:id="@+id/navigation_maps"
+        android:name="com.example.tugas_uas_genap_2021_akb_if_9_10118377.ui.maps.MapsFragment"
+        tools:layout="@layout/fragment_maps" />
+
+    <fragment
         android:id="@+id/navigation_about"
         android:name="com.example.tugas_uas_genap_2021_akb_if_9_10118377.ui.about.AboutFragment"
         tools:layout="@layout/fragment_about" />
