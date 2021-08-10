@@ -32,9 +32,17 @@ public class MapsFragment extends Fragment {
          */
         @Override
         public void onMapReady(GoogleMap googleMap) {
-            LatLng sydney = new LatLng(-34, 151);
-            googleMap.addMarker(new MarkerOptions().position(sydney).title("Marker in Sydney"));
-            googleMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
+            LatLng lerengAnteng = new LatLng(-6.841630003633277, 107.62278376592819);
+            LatLng lembangWonderland = new LatLng(-6.816775923335994, 107.61280173894394);
+            LatLng greatAsiaAfrica = new LatLng(-6.832963205609953, 107.60415949661605);
+            LatLng farmHouse = new LatLng(-6.832713331836135, 107.60563975428805);
+
+            googleMap.addMarker(new MarkerOptions().position(lerengAnteng).title("Marker in Lereng Anteng"));
+            googleMap.addMarker(new MarkerOptions().position(lembangWonderland).title("Marker in Lembang Wonderland"));
+            googleMap.addMarker(new MarkerOptions().position(greatAsiaAfrica).title("Marker in Great Asia Africa"));
+            googleMap.addMarker(new MarkerOptions().position(farmHouse).title("Marker in Farm House"));
+
+            googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(farmHouse, 14));
         }
     };
 
