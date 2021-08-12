@@ -1,3 +1,13 @@
+/*
+
+11 Agustus 2021
+
+10118377
+Farhan Rafly Fahrezi Saepulloh
+IF - 9
+
+*/
+
 package com.holiyay.tugas_uas_genap_2021_akb_if_9_10118377.ui.info;
 
 import androidx.annotation.NonNull;
