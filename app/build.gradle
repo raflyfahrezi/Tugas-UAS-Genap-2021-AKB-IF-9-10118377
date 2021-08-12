@@ -11,8 +11,8 @@ android {
         applicationId "com.holiyay.tugas_uas_genap_2021_akb_if_9_10118377"
         minSdkVersion 22
         targetSdkVersion 30
-        versionCode 1
-        versionName "1.0"
+        versionCode 2
+        versionName "2.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
