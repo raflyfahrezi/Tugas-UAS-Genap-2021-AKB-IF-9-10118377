@@ -8,7 +8,7 @@ IF - 9
 
 */
 
-package com.example.tugas_uas_genap_2021_akb_if_9_10118377.model;
+package com.holiyay.tugas_uas_genap_2021_akb_if_9_10118377.model;
 
 public class PlaceModel {
 

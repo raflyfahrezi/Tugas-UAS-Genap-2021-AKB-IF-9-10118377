@@ -8,7 +8,7 @@ IF - 9
 
 */
 
-package com.example.tugas_uas_genap_2021_akb_if_9_10118377.ui.info;
+package com.holiyay.tugas_uas_genap_2021_akb_if_9_10118377.ui.info;
 
 import android.os.Bundle;
 
@@ -22,8 +22,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.example.tugas_uas_genap_2021_akb_if_9_10118377.R;
-import com.example.tugas_uas_genap_2021_akb_if_9_10118377.ui.info.view_pager.*;
+import com.holiyay.tugas_uas_genap_2021_akb_if_9_10118377.R;
+import com.holiyay.tugas_uas_genap_2021_akb_if_9_10118377.ui.info.view_pager.*;
 
 import java.util.ArrayList;
 import java.util.List;

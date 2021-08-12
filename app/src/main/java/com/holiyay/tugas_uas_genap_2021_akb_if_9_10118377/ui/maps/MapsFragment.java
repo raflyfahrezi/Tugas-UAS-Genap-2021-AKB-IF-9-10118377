@@ -1,4 +1,4 @@
-package com.example.tugas_uas_genap_2021_akb_if_9_10118377.ui.maps;
+package com.holiyay.tugas_uas_genap_2021_akb_if_9_10118377.ui.maps;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -15,7 +15,7 @@ import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
-import com.example.tugas_uas_genap_2021_akb_if_9_10118377.R;
+import com.holiyay.tugas_uas_genap_2021_akb_if_9_10118377.R;
 
 public class MapsFragment extends Fragment {
 

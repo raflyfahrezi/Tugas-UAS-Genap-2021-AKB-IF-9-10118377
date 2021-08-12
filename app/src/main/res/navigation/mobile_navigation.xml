@@ -7,21 +7,21 @@
 
     <fragment
         android:id="@+id/navigation_info"
-        android:name="com.example.tugas_uas_genap_2021_akb_if_9_10118377.ui.info.InfoFragment"
+        android:name="com.holiyay.tugas_uas_genap_2021_akb_if_9_10118377.ui.info.InfoFragment"
         tools:layout="@layout/fragment_info" />
 
     <fragment
         android:id="@+id/navigation_home"
-        android:name="com.example.tugas_uas_genap_2021_akb_if_9_10118377.ui.place.PlaceFragment"
+        android:name="com.holiyay.tugas_uas_genap_2021_akb_if_9_10118377.ui.place.PlaceFragment"
         tools:layout="@layout/fragment_place" />
 
     <fragment
         android:id="@+id/navigation_maps"
-        android:name="com.example.tugas_uas_genap_2021_akb_if_9_10118377.ui.maps.MapsFragment"
+        android:name="com.holiyay.tugas_uas_genap_2021_akb_if_9_10118377.ui.maps.MapsFragment"
         tools:layout="@layout/fragment_maps" />
 
     <fragment
         android:id="@+id/navigation_about"
-        android:name="com.example.tugas_uas_genap_2021_akb_if_9_10118377.ui.about.AboutFragment"
+        android:name="com.holiyay.tugas_uas_genap_2021_akb_if_9_10118377.ui.about.AboutFragment"
         tools:layout="@layout/fragment_about" />
 </navigation>

@@ -1,4 +1,4 @@
-package com.example.tugas_uas_genap_2021_akb_if_9_10118377.ui.info;
+package com.holiyay.tugas_uas_genap_2021_akb_if_9_10118377.ui.info;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;

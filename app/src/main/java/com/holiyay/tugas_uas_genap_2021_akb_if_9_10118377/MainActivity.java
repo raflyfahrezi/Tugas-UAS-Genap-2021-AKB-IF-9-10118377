@@ -8,7 +8,7 @@ IF - 9
 
 */
 
-package com.example.tugas_uas_genap_2021_akb_if_9_10118377;
+package com.holiyay.tugas_uas_genap_2021_akb_if_9_10118377;
 
 import android.os.Bundle;
 
@@ -17,7 +17,6 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
-import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
 

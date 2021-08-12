@@ -1,6 +1,5 @@
-package com.example.tugas_uas_genap_2021_akb_if_9_10118377.ui.place;
+package com.holiyay.tugas_uas_genap_2021_akb_if_9_10118377.ui.place;
 
-import android.media.Image;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,8 +10,8 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
-import com.example.tugas_uas_genap_2021_akb_if_9_10118377.R;
-import com.example.tugas_uas_genap_2021_akb_if_9_10118377.model.PlaceModel;
+import com.holiyay.tugas_uas_genap_2021_akb_if_9_10118377.R;
+import com.holiyay.tugas_uas_genap_2021_akb_if_9_10118377.model.PlaceModel;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.firebase.ui.database.FirebaseRecyclerOptions;
 
