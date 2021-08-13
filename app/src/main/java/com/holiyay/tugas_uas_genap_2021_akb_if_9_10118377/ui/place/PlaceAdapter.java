@@ -42,6 +42,7 @@ public class PlaceAdapter extends FirebaseRecyclerAdapter<PlaceModel, PlaceAdapt
     @Override
     protected void onBindViewHolder(@NonNull @NotNull myViewHolder holder, int position, @NonNull @NotNull PlaceModel model) {
         holder.name.setText(model.getName());
+        holder.description.setText(model.getDescription());
         holder.region.setText(model.getRegion());
 
         Glide.with(holder.img.getContext())
@@ -63,7 +64,7 @@ public class PlaceAdapter extends FirebaseRecyclerAdapter<PlaceModel, PlaceAdapt
     class myViewHolder extends RecyclerView.ViewHolder{
 
         ImageView img;
-        TextView name, region;
+        TextView name, description, region;
 
 
         public myViewHolder(@NonNull View itemView) {
@@ -71,6 +72,7 @@ public class PlaceAdapter extends FirebaseRecyclerAdapter<PlaceModel, PlaceAdapt
 
             img = (ImageView) itemView.findViewById(R.id.place_image);
             name = (TextView) itemView.findViewById(R.id.place_name);
+            description = (TextView) itemView.findViewById(R.id.place_description);
             region = (TextView) itemView.findViewById(R.id.place_region);
         }
     }
