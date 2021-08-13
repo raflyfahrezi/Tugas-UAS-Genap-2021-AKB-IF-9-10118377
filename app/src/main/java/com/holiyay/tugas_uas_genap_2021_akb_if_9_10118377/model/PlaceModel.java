@@ -12,7 +12,7 @@ package com.holiyay.tugas_uas_genap_2021_akb_if_9_10118377.model;
 
 public class PlaceModel {
 
-    String img, name, region;
+    String img, name, description, region;
 
     PlaceModel() {
 
@@ -38,6 +38,14 @@ public class PlaceModel {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
     }
 
     public String getRegion() {
